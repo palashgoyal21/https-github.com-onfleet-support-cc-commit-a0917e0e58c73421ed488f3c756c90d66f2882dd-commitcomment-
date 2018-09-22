@@ -1,4 +1,4 @@
-## Question 2
+## Challenge 2
 
 a. I am 1 billion seconds old today. What day was I born?
 
@@ -6,3 +6,4 @@ b. Pretend it is Wednesday, October 24, 2018. A Swiss dispatcher, Lara, will be 
 
 Assume that a Jordanian customer from that set of deliveries complains that he didn't receive the expected text/SMS message on Saturday, for a delivery at 16:00, local time. Assuming that the telephony logs are in Pacific timezone, what timestamp would you look for in the logs?
 
+Answer in a separate text file.
