@@ -1,0 +1,34 @@
+a.)
+select name
+from salesperson
+where id in (select salesperson_id from order)
+
+b.)
+select name 
+from salesperson 
+where id not on (select salesperson_id from order)
+
+c.)
+select s.name 
+from salespreson s
+inner join 
+orders o 
+on s.id = o.salesperson_id
+group by s.name 
+having cound(s.name)>=2
+
+d.)
+select name , age 
+from salesperson
+where salary>=100000
+
+e.)
+ select name
+from salesperson
+where 
+Salesperson.id = Orders.Salesperson_id
+and oreders.amount >=1400
+
+f.) select min (order_date), max (order_date)
+from orders 
+
